@@ -1,8 +1,12 @@
+from config import alpha_vantage_api_api_key as key
+import matplotlib.pyplot as plt
+from matplotlib import style
 import json
 import pandas as pd
-import matplotlib.pyplot as plt
 import requests
-from config import alpha_vantage_api_api_key as key
+
+
+style.use('pacoty')
 
 plt.rcParams['font.family'] = 'Product Sans'
 plt.rcParams['font.size'] = 10
